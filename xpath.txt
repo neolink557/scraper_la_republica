@@ -1,0 +1,4 @@
+ Links = //h2/a[@href and @class]/@href
+ titulos = //h2[not(@class)]/span/text()
+ resumen = //div[@class = "lead"]/p/text()
+ noticia = //div[@class = "html-content"]/p[not(@class)]/text()
